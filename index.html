@@ -29,7 +29,7 @@
                 <button class="btn btn-info text-dark mb-3"
                     id="addBtn">Add Product</button>
                 <button class="btn btn-success text-dark mb-3 d-none"
-                    id="updateBtn" onclick="updateProduct()">Update Product</button>
+                    id="updateBtn" onclick="updateProduct(index)">Update Product</button>
                 <p class="text-danger text-center fw-bold" id="emp"></p>
 
                 <input type="search" class="form-control mb-3"
@@ -39,6 +39,7 @@
                 <table class="table">
                     <thead>
                         <tr>
+                            <th>index</th>
                             <th>Name</th>
                             <th>Price</th>
                             <th>category</th>
